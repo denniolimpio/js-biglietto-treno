@@ -33,16 +33,17 @@ console.log ('prezzo over 65: ' + ticketPrice40 + ' euro');
 
 
 if ( etaUtente <= 18) {
-  document.getElementById('price').innerHTML = 'Complimenti! Ti abbiamo applicato uno sconto del 20% : ' + ' Prezzo totale: ' + ticketPrice20 + ' euro';
+  alert ( 'Complimenti! hai ottenuto uno sconto del 20%');
+  document.getElementById('price').innerHTML = 'Prezzo totale: ' + ticketPrice20 + ' euro';
 
 }
 
 else if  (etaUtente >= 65){
-
-  document.getElementById('price').innerHTML = 'Complimenti! Ti abbiamo applicato uno sconto del 40% : ' + ' Prezzo totale: ' + ticketPrice40 + ' euro';
+  alert ( 'Complimenti! hai ottenuto uno sconto del 40%');
+  document.getElementById('price').innerHTML =' Prezzo totale: ' + ticketPrice40 + ' euro';
 
 
 }
 else {
-  document.getElementById('price').innerHTML = 'Salve, il prezzo del biglietto è di: ' + fullTicketPrice + ' euro';
+  document.getElementById('price').innerHTML = 'Prezzo totale ' + fullTicketPrice + ' euro';
 }
