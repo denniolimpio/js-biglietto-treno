@@ -32,13 +32,13 @@ var ticketPrice40 = fullTicketPrice - coupon40;
 console.log ('prezzo over 65: ' + ticketPrice40 + ' euro');
 
 
-if ( etaUtente <= 18) {
+if ( etaUtente < 18) {
   alert ( 'Complimenti! hai ottenuto uno sconto del 20%');
   document.getElementById('price').innerHTML = 'Prezzo totale: ' + ticketPrice20 + ' euro';
 
 }
 
-else if  (etaUtente >= 65){
+else if  (etaUtente > 65){
   alert ( 'Complimenti! hai ottenuto uno sconto del 40%');
   document.getElementById('price').innerHTML =' Prezzo totale: ' + ticketPrice40 + ' euro';
 
