@@ -1,3 +1,19 @@
 body {
+  color: black;
+  font-size: 21px;
+  font-weight: bolder;
   background-color: red;
+}
+.form-group {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  align-items: center;
+}
+
+.box {
+  margin: 10px 0;
+  width: 200px;
+  height: 20px;
+  border-radius: 4px;
 }
